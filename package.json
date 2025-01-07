@@ -1,0 +1,37 @@
+{
+  "name": "yaapi",
+  "version": "0.0.0",
+  "description": "Yet Another API builder",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "ava"
+  },
+  "eslintConfig": {
+    "extends": "@gmartigny/eslint-config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GMartigny/yaapi.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "GMartigny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GMartigny/yaapi/issues"
+  },
+  "homepage": "https://github.com/GMartigny/yaapi#readme",
+  "dependencies": {
+    "h3": "^1.13.0",
+    "listhen": "^1.9.0",
+    "uuid": "^11.0.4"
+  },
+  "devDependencies": {
+    "@gmartigny/eslint-config": "^2.2.0",
+    "ava": "^6.2.0",
+    "eslint": "^8.57.1"
+  }
+}

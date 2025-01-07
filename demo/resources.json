@@ -1,0 +1,11 @@
+{
+  "users": {
+    "meta": {
+      "routes": ["get-one", "get-list", "create", "soft-delete", "update"]
+    },
+    "fields": {
+      "name": "String",
+      "age": "Number"
+    }
+  }
+}
